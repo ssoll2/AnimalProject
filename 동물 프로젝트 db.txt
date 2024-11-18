@@ -5,9 +5,11 @@
 동물 나이	int
 접종 유무 int (1: 접종완료 / 2: 접종 미완료) 
 입양 완료 int (1: 완료 / 2: 입양x )
-동물 성격
-건강 상태
-동물 사진 @one to many
+동물 성격 varchar
+건강 상태 varchar
+동물 사진 varchar
+분양 지역 varchar
+
 
 유저 테이블
 유저 번호 int pk (게시판 테이블 조인)
@@ -21,7 +23,7 @@
 작성한 유저번호 int
 유기견 사진 varchar
 조회수 int 
-등록 날짜
+등록 날짜 date
 
 
 
