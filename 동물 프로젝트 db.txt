@@ -3,18 +3,22 @@
 동물 번호 (c:고양이 / d:강아지) pk (유저테이블 동물번호 조인)
 동물 이름 varchar
 동물 나이	int
-접종 유무 int (1: 접종완료 / 2: 접종 미완료) 
-입양 완료 int (1: 완료 / 2: 입양x )
 동물 성격 varchar
 건강 상태 varchar
 동물 사진 varchar
 분양 지역 varchar
+접종 유무 int (1: 접종완료 / 2: 접종 미완료) 
+입양 완료 int (1: 완료 / 2: 입양x )
+
+
 
 
 유저 테이블
 유저 번호 int pk (게시판 테이블 조인)
 유저 아이디 varchar unique
 유저 비밀번호 varchar
+유저 연락처 varchar
+이메일 varchar
 관리자 유무 int
 동물번호 int null (입양시 번호 부여)
 
