@@ -4,6 +4,7 @@
 동물 이름 varchar
 동물 나이	int
 동물 성격 varchar
+동물 성별 varchar
 건강 상태 varchar
 동물 사진 varchar
 분양 지역 varchar
