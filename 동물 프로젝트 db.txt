@@ -2,7 +2,7 @@
 
 동물 번호 (c:고양이 / d:강아지) pk (유저테이블 동물번호 조인)
 동물 이름 varchar
-동물 나이	int
+동물 나이 int
 동물 성격 varchar
 동물 성별 varchar
 건강 상태 varchar
