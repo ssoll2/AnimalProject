@@ -28,7 +28,7 @@
 작성한 유저번호 int
 게시물 제목 varchar
 게시물 내용 varchar
-유기견 사진 varchar
+동물 사진 varchar
 조회수 int 
 등록 날짜 date
 
