@@ -20,6 +20,7 @@
 유저 비밀번호 varchar
 유저 연락처 varchar
 이메일 varchar
+회원가입 일 date
 관리자 유무 int
 동물번호 int null (입양시 번호 부여)
 
