@@ -15,7 +15,7 @@
 
 
 유저 테이블
-유저 번호 int pk (게시판 테이블 조인)
+유저 번호 int pk (게시판 테이블 조인) (예: 1,2,3)
 유저 이름 varchar
 유저 아이디 varchar unique
 유저 비밀번호 varchar
